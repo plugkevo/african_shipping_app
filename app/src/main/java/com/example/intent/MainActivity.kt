@@ -12,7 +12,7 @@ import androidx.activity.ComponentActivity
 
 
 class MainActivity : ComponentActivity() {
-    @SuppressLint("MissingInflatedId")
+    @SuppressLint("MissingInflatedId", "SuspiciousIndentation")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.layout)
@@ -28,6 +28,8 @@ class MainActivity : ComponentActivity() {
             val intent = Intent(this, MainActivity3::class.java)
             startActivity(intent)
         }
+        val resultText :TextView = findViewById(R.id.editTextText)
+        resultText.text ="Goodbye"
 
     }
 }

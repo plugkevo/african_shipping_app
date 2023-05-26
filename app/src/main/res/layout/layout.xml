@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#1ecbe1">
+    android:background="@color/primarycolor">
 
 
     <EditText
@@ -14,7 +14,7 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="96dp"
-        android:layout_marginTop="237dp"
+        android:layout_marginTop="238dp"
         android:layout_marginEnd="104dp"
         android:ems="10"
         android:hint="UserName"

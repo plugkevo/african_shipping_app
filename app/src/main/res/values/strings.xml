@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">intent</string>
+    <string name="colors">colors</string>
+
 </resources>
